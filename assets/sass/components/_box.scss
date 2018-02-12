@@ -15,8 +15,8 @@
 			padding: 3.5em 2.5em 3.5em 2.5em;
 		}
 		&.style3 {
-			padding: 3.5em 2.5em 3.5em 2.5em;
-			background-color: transparentize(_palette(bg), 0.4);
+			padding: 3em 2em 3em 2em;
+			background-color: transparentize(_palette(bg), 0.25);
 		}
 
 		@include breakpoint(small) {
