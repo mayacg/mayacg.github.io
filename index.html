@@ -4,45 +4,20 @@ layout: default
 sections:
 - html_id: one
   class: right
-  title: What I Do
+  title: Research
   excerpt: Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum. Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu, id varius justo euismod in. Curabitur egestas consectetur magna.
   next: "#two"
 - html_id: two
   class: left
-  title: Who I Am
+  title: Teaching
   excerpt: Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum. Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu, id varius justo euismod in. Curabitur egestas consectetur magna.
   next: "#work"
 
-gallery:
-- full: /images/fulls/01.jpg
-  thumb: /images/thumbs/01.jpg
-  title: Non Consequat Mus
-  animate_from: left
-- full: /images/fulls/02.jpg
-  thumb: /images/thumbs/02.jpg
-  title: Pellentesque at
-  animate_from: right
-- full: /images/fulls/03.jpg
-  thumb: /images/thumbs/03.jpg
-  title: Non Primis
-  animate_from: left
-- full: /images/fulls/04.jpg
-  thumb: /images/thumbs/04.jpg
-  title: Augue ac
-  animate_from: right
-- full: /images/fulls/05.jpg
-  thumb: /images/thumbs/05.jpg
-  title: Vel porttitor donec
-  animate_from: left
-- full: /images/fulls/06.jpg
-  thumb: /images/thumbs/06.jpg
-  title: Urna ut
-  animate_from: right
 ---
 
 <!-- Intro -->
 	<section id="intro" class="main style1 dark fullscreen">
-		<div class="content">
+		<div class="content box">
 			<header>
 				<h2>Hi!</h2>
 			</header>
@@ -71,20 +46,6 @@ gallery:
 
 {% endfor %}
 
-<!-- Work -->
-	<section id="work" class="main style3 primary">
-		<div class="content">
-			<header>
-				<h2>My Work</h2>
-				<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-				Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis
-				arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae.</p>
-			</header>
-
-			{% include components/gallery.html gallery=page.gallery %}
-
-		</div>
-	</section>
 
 <!-- Contact -->
 	<section id="contact" class="main style3 secondary">
